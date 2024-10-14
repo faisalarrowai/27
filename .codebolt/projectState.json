@@ -1,3 +1,42 @@
 {
-  "activeAgent": false
+  "activeAgent": false,
+  "currentLayout": {
+    "grid": {
+      "root": {
+        "type": "branch",
+        "data": [
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Code",
+                "ProjectSettings"
+              ],
+              "activeView": "ProjectSettings",
+              "id": "1"
+            },
+            "size": 1280
+          }
+        ],
+        "size": 612
+      },
+      "width": 1280,
+      "height": 612,
+      "orientation": "HORIZONTAL"
+    },
+    "panels": {
+      "Code": {
+        "id": "Code",
+        "contentComponent": "Code",
+        "title": "Code",
+        "renderer": "always"
+      },
+      "ProjectSettings": {
+        "id": "ProjectSettings",
+        "contentComponent": "ProjectSettings",
+        "title": "ProjectSettings"
+      }
+    },
+    "activeGroup": "1"
+  }
 }

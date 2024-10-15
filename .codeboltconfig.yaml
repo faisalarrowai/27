@@ -1,62 +1,32 @@
-appName: compatible-harlequin
-appUniqueId: faisalarrowai/compatible-harlequin
+appName: ''
+appUniqueId: ''
 appInfo:
-  description: This app will create slides presentation for you.
-  appVersion: 1.0.0
-  appRepoUrl: https://github.com/faisalarrowai/27.git
-  appIconUrl: https://storage.googleapis.com/codeboltai.appspot.com/agents/8GXuJ6XQv4.png
-  appAuthorUserId: faisalarrowai
-  forkedFrom: codeboltadmin/basereactapp
+  description: ''
+  appVersion: 1.0.1
+  appRepoUrl: ''
+  appIconUrl: ''
+  appAuthorUserId: ''
+  forkedFrom: ''
 technicalInfo:
-  supportedLanguages:
-    - typescript
-  supportedFrameworks:
-    - react
-  secrets:
-    - name: MONGO_URL
-      description: MonogoDb URL
-  services:
-    - node:20+
-    - python:2.13+
-    - redis:any
-  knowledgebases:
-    - url:
-        url: docs.test.com
-        vectordbId: adsfasdfasd
-        name: TestDocs
-    - docs:
-        url: asdfi/co/file
-        vectordbId: asdfaga
-        name: sampledoc
-  instruction:
-    - text: adsfadsfasdf
-    - localfile:
-        path: ./instruction.md
+  supportedLanguages: []
+  supportedFrameworks: []
+  secrets: []
+  services: []
+  knowledgebases: []
+  instruction: []
 usage:
   develop:
-    run:
-      - shell:
-          command: npm run dev
-    agents:
-      - codebolt_dev
-    laynut: dev
+    run: []
+    agents: []
+    layout: ''
   install:
-    steps:
-      - instruction:
-          AIinstruction: Create this app
-      - command:
-          type: shell
-          description: This installs the Npm
-          command: npm install
+    steps: []
     customInstallationAgent:
-      enabled: true
-      agent: codebolt_dev
+      enabled: false
+      agent: ''
   appUse:
-    prerunsteps:
-      - shell:
-          command: npm run start
-    agents:
-      - codebol_sildes_generator
-    layout: basic
+    prerunsteps: []
+    agents: []
+    layout: ''
     appPreview:
-      type: web
+      type: ''

@@ -9,41 +9,68 @@
             "type": "leaf",
             "data": {
               "views": [
-                "Preview",
-                "ProjectSettings",
-                "Terminal-1728884696340"
+                "Code"
               ],
-              "activeView": "Terminal-1728884696340",
-              "id": "3"
+              "activeView": "Code",
+              "id": "1"
             },
-            "size": 612
+            "size": 640
+          },
+          {
+            "type": "branch",
+            "data": [
+              {
+                "type": "leaf",
+                "data": {
+                  "views": [
+                    "Chat"
+                  ],
+                  "activeView": "Chat",
+                  "id": "2"
+                },
+                "size": 306
+              },
+              {
+                "type": "leaf",
+                "data": {
+                  "views": [
+                    "Preview"
+                  ],
+                  "activeView": "Preview",
+                  "id": "3"
+                },
+                "size": 306
+              }
+            ],
+            "size": 640
           }
         ],
-        "size": 1280
+        "size": 612
       },
       "width": 1280,
       "height": 612,
-      "orientation": "VERTICAL"
+      "orientation": "HORIZONTAL"
     },
     "panels": {
+      "Code": {
+        "id": "Code",
+        "contentComponent": "Code",
+        "title": "Code",
+        "renderer": "always"
+      },
+      "Chat": {
+        "id": "Chat",
+        "contentComponent": "Chat",
+        "title": "Chat",
+        "renderer": "always"
+      },
       "Preview": {
         "id": "Preview",
         "contentComponent": "Preview",
         "title": "Preview",
         "renderer": "always"
-      },
-      "ProjectSettings": {
-        "id": "ProjectSettings",
-        "contentComponent": "ProjectSettings",
-        "title": "ProjectSettings"
-      },
-      "Terminal-1728884696340": {
-        "id": "Terminal-1728884696340",
-        "contentComponent": "Code",
-        "title": "Code",
-        "renderer": "always"
       }
     },
-    "activeGroup": "3"
+    "activeGroup": "1"
   }
 }

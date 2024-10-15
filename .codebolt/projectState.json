@@ -34,9 +34,10 @@
                 "type": "leaf",
                 "data": {
                   "views": [
-                    "Preview"
+                    "Preview",
+                    "ProjectSettings"
                   ],
-                  "activeView": "Preview",
+                  "activeView": "ProjectSettings",
                   "id": "3"
                 },
                 "size": 306
@@ -69,8 +70,13 @@
         "contentComponent": "Preview",
         "title": "Preview",
         "renderer": "always"
+      },
+      "ProjectSettings": {
+        "id": "ProjectSettings",
+        "contentComponent": "ProjectSettings",
+        "title": "ProjectSettings"
       }
     },
-    "activeGroup": "1"
+    "activeGroup": "3"
   }
 }
